@@ -44,7 +44,11 @@
 
         .hero {
             height: 100vh;
+<<<<<<< HEAD
             background: url('hogwarts.jpg') center/cover;
+=======
+            background: url('') center/cover;
+>>>>>>> 1da0b0f6b839205ee6dfb6f20ced051ed7d0e96e
             display: flex;
             align-items: center;
             justify-content: center;
@@ -162,6 +166,7 @@
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#achievements">Achievements</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="log.html">Account</a></li>
         </ul>
     </nav>
 
@@ -215,6 +220,8 @@
             <button onclick="submitForm()">Send Message</button>
         </div>
     </section>
+      
+    <a href="log.html">Account</a>
 
     <footer>
         <p>&copy; 2025 Hogwarts School of Witchcraft and Wizardry</p>
@@ -227,15 +234,15 @@
         }
 
         // Smooth scrolling for nav links
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const sectionId = this.getAttribute('href');
-                document.querySelector(sectionId).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+        // document.querySelectorAll('nav a').forEach(anchor => {
+        //     anchor.addEventListener('click', function(e) {
+        //         e.preventDefault();
+        //         const sectionId = this.getAttribute('href');
+        //         document.querySelector(sectionId).scrollIntoView({
+        //             behavior: 'smooth'
+        //         });
+        //     });
+        // });
     </script>
 </body>
 </html>
